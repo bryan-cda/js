@@ -35,3 +35,13 @@ console.log(drone);
 let friends = ['Foo','Bar', 'John', 'Due'];
 console.log(friends);
 console.log(friends[2]);
+
+function getPercent(amount, quantity){
+    return (amount / 100) * quantity;
+}
+
+console.log(getPercent(120, 30));
+
+const percentInLine =  (amount, percent) => (amount / 100) * percent;
+
+console.log(percentInLine(120, 30));
