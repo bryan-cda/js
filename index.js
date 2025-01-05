@@ -45,3 +45,9 @@ console.log(getPercent(120, 30));
 const percentInLine =  (amount, percent) => (amount / 100) * percent;
 
 console.log(percentInLine(120, 30));
+
+let value1 = 10;
+let value2 = 40;
+
+const sumTwoValues = value1 + value2;
+console.log(sumTwoValues);
