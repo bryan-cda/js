@@ -1,4 +1,4 @@
-# JavaScript (JS) Training ![Texto Alternativo](https://blogjavascript.com.br/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fblogjavascript%2F4502e0bb-14cb-4da9-845b-7083e48ccc00_1.jpg%3Fauto%3Dcompress%2Cformat&w=1920&q=75)
+# JavaScript (JS) Training ![Texto Alternativo](https://compraco.com.br/cdn/shop/articles/Para-que-e-usado-o-JavaScript.jpg?v=1717267239)
 ## Content:
 
 #### Hello World message
