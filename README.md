@@ -3,7 +3,7 @@
 ## Content:
 
 (topic) ⇒ **Hello World:**
- _We don't want the developers' curse to fall upon us, so Hello World is a must._
+-  _We don't want the developers' curse to fall upon us, so Hello World is a must._
 
 ~~~javascript~~~
 console.log("Hello World!");
