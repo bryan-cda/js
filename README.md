@@ -6,6 +6,7 @@
 -  _We don't want the developers' curse to fall upon us, so Hello World is a must._
 
 ~~~javascript~~~
+
 console.log("Hello World!");
 ~~~
 
@@ -20,6 +21,7 @@ console.log("Hello World!");
 * Symbol.
 
 ~~~javascript~~~
+
 let firstName = "Foo";
 let currentYear = 2025;
 let price = 12.95;
@@ -39,6 +41,7 @@ console.log(myObject[yearSymbol]);
 **Default:**
 
 ~~~javascript
+
 const drone = {
   brand: brand,
   releaseDate: releaseDate
@@ -48,6 +51,7 @@ const drone = {
 **Shorthand Property:**
 
 ~~~javascript
+
 const drone = { brand, releaseDate };
 ~~~
 
@@ -55,6 +59,7 @@ const drone = { brand, releaseDate };
 - _Here we use the value of the variables to be interpolated to a String:_
 
 ~~~javascript
+
 let user = "foobar";
 console.log(`Welcome to GitHub, ${user}!`);
 ~~~
@@ -65,12 +70,14 @@ console.log(`Welcome to GitHub, ${user}!`);
 **Dot:**
 
 ~~~javascript
+
 drone.releaseDate = 2025;
 ~~~
 
 **Square Brackets:**
 
 ~~~javascript
+
 drone['releaseDate'] = 2025;
 ~~~
 
@@ -80,6 +87,7 @@ drone['releaseDate'] = 2025;
 **Building an Array:**
 
 ~~~javascript
+
 let colors = ['Green', 1, 'Blue', 2];
 console.log(colors[0]);
 ~~~
@@ -90,6 +98,7 @@ console.log(colors[0]);
 **Default Function:**
 
 ~~~javascript
+
 function displayMyAge(bornDate) {
     return new Date().getFullYear() - bornDate;
 }
@@ -98,6 +107,7 @@ function displayMyAge(bornDate) {
 **Callback Function:**
 
 ~~~javascript
+
 const displayMyAge = (bornDate) => new Date().getFullYear() - bornDate;
 ~~~
 
@@ -105,6 +115,7 @@ const displayMyAge = (bornDate) => new Date().getFullYear() - bornDate;
 - _In the world of programming, mathematical operations are fundamental. In them we can add, decrease, divide, multiply, increase, decrement and perform other operations, as the example below shows:_
 
 ~~~javascript
+
 cconst evenOrOdd = (number1, number2) => (number1 % number2) > 0 ? "odd" : "even"; 
 console.log(`Dividing ${number1} by ${number2} has a reminder is:`,number1 % number2,`so the number is ${evenOrOdd(number1, number2)}.`);
 console.log(`Dividing ${number1} by ${number3} has a reminder is:`, number1 % number3,`so the number is ${evenOrOdd(number1, number3)}.`);
