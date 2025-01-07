@@ -1,7 +1,9 @@
 # JavaScript (JS) Training ![Texto Alternativo](https://compraco.com.br/cdn/shop/articles/Para-que-e-usado-o-JavaScript.jpg?v=1717267239)
+
 ## Content:
 
-#### Hello World message
+#### "Hello World"
+⇒ The introduce of all developers
 
 #### Knowledge of JavaScript Primitive Types
     
@@ -16,7 +18,6 @@
 ### Create a default and anonymous functions
 
 ### Using a mathematical operations
-
 
 ## Project Status
 - In progress
