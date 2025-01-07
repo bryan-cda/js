@@ -2,7 +2,7 @@
 
 ## Content:
 
-#### "Hello World"
+- #### "Hello World"
 ⇒ The introduce of all developers
 
 #### Knowledge of JavaScript Primitive Types
