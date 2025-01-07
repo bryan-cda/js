@@ -6,9 +6,12 @@
 -  _We don't want the developers' curse to fall upon us, so Hello World is a must._
 
 ~~~javascript~~~
-const sayHello() => "Hello World!";
+function helloWorld() {
+    console.log('Hello World!');
+}
 
-sayHello();
+helloWorld();
+
 ~~~
 
 (topic) ⇒ **Knowledge of JavaScript Primitive Types:**
