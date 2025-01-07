@@ -6,7 +6,7 @@
 -  _We don't want the developers' curse to fall upon us, so Hello World is a must._
 
 ~~~javascript~~~
-function sayHello() => "Hello World!";
+const sayHello() => "Hello World!";
 
 sayHello();
 ~~~
