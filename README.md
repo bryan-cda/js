@@ -10,7 +10,7 @@ console.log("Hello World!");
 ~~~
 
 (topic) ⇒ **Knowledge of JavaScript Primitive Types:**
-_Practicing the use of JavaScript primitive types such as:_
+- _Practicing the use of JavaScript primitive types such as:_
 
 * String
 * Number
@@ -34,7 +34,7 @@ console.log(myObject[yearSymbol]);
 ~~~
     
 (topic) ⇒ **Different ways to building a Object:**
-_Here we create a object with default way but also using shorthand property names as the example below shows:_
+- _Here we create a object with default way but also using shorthand property names as the example below shows:_
 
 **Default:**
 
@@ -52,7 +52,7 @@ const drone = { brand, releaseDate };
 ~~~
 
 (topic) ⇒ **String with interpolation or Template String:**
-_Here we use the value of the variables to be interpolated to a String:_
+- _Here we use the value of the variables to be interpolated to a String:_
 
 ~~~javascript
 let user = "foobar";
@@ -60,7 +60,7 @@ console.log(`Welcome to GitHub, ${user}!`);
 ~~~
 
 (topic) ⇒ **Different ways to assign or change the value of an object property:**
-_We use two ways to change the value of a property of an object, with the object with dot and with the square brackets as in the example below:_
+- _We use two ways to change the value of a property of an object, with the object with dot and with the square brackets as in the example below:_
 
 **Dot:**
 
@@ -75,7 +75,7 @@ drone['releaseDate'] = 2025;
 ~~~
 
 (topic) ⇒ **Using arrays to store values, access and modify your elements:**
-_Using array to store a collection of values ​​of different types as in the example below:_
+- _Using array to store a collection of values ​​of different types as in the example below:_
 
 **Building an Array:**
 
@@ -85,7 +85,7 @@ console.log(colors[0]);
 ~~~
 
 (topic) ⇒ **Create a default and callback functions:**
-_Functions are very useful, and when you need to pass a function to another function, without having to name it, you can use an anonymous function:_
+- _Functions are very useful, and when you need to pass a function to another function, without having to name it, you can use an anonymous function:_
 
 **Default Function:**
 
@@ -102,7 +102,7 @@ const displayMyAge = (bornDate) => new Date().getFullYear() - bornDate;
 ~~~
 
 (topic) ⇒ **Using a mathematical operations:**
-_In the world of programming, mathematical operations are fundamental. In them we can add, decrease, divide, multiply, increase, decrement and perform other operations, as the example below shows:_
+- _In the world of programming, mathematical operations are fundamental. In them we can add, decrease, divide, multiply, increase, decrement and perform other operations, as the example below shows:_
 
 ~~~javascript
 cconst evenOrOdd = (number1, number2) => (number1 % number2) > 0 ? "odd" : "even"; 
@@ -111,5 +111,6 @@ console.log(`Dividing ${number1} by ${number3} has a reminder is:`, number1 % nu
 ~~~
 
 ## Project Status:
-_in progress..._
+- _Work In Progress..._
 
+👨🏻‍💻
