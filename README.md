@@ -8,6 +8,7 @@
 ~~~javascript~~~
 
 console.log("Hello World!");
+
 ~~~
 
 (topic) ⇒ **Knowledge of JavaScript Primitive Types:**
