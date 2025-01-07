@@ -13,31 +13,16 @@ console.log("Hello World!");
 (topic) ⇒ **Knowledge of JavaScript Primitive Types:**
 - _Practicing the use of JavaScript primitive types such as:_
 
-Data Type | Expected Value
---------- | ------
-String    | 'foo';
-String    | "foo";
-Number    | 100;
-Number    | 3.14;
-Boolean   | true;
-Boolean   | false;
-Null      | null;
-Symbol    | Symbol('releaseDate');
-
-~~~javascript~~~
-
-let firstName = "Foo";
-let currentYear = 2025;
-let price = 12.95;
-let isEvenYear = false;
-let endOfSun = null;
-const yearSymbol = Symbol('year');
-const currentYear = new Date().getFullYear();
-let myObject = {
-  [yearSymbol]: currentYear
-};
-console.log(myObject[yearSymbol]);
-~~~
+variable_name | assigment_value | dynamic_data_type
+------------- | --------------- |------------------
+firstName     | 'foo';          | String
+lastName      | "bar";          | String
+price         | 100;            | Number
+Pi            | 3.14;           | Number
+isOpen        | true;           | Boolean
+isClosed      | false;          | Boolean
+Null          | null;           | Null
+releaseDate   | Symbol('releaseDate'); | Symbol
     
 (topic) ⇒ **Different ways to building a Object:**
 - _Here we create a object with default way but also using shorthand property names as the example below shows:_
