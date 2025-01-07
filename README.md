@@ -1,4 +1,4 @@
-# JavaScript Training ![Texto Alternativo](https://compraco.com.br/cdn/shop/articles/Para-que-e-usado-o-JavaScript.jpg?v=1717267239)
+#![Texto Alternativo](https://compraco.com.br/cdn/shop/articles/Para-que-e-usado-o-JavaScript.jpg?v=1717267239)
 
 ## Content:
 
