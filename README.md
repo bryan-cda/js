@@ -1,4 +1,4 @@
-# JavaScript (JS) Training ![Texto Alternativo](https://www.google.com/imgres?q=javascript&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F99%2FUnofficial_JavaScript_logo_2.svg%2F800px-Unofficial_JavaScript_logo_2.svg.png&imgrefurl=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FJavaScript&docid=sfCSW9zT8CoOUM&tbnid=7jMANxIuzPIx2M&vet=12ahUKEwjfrYWQ6uKKAxW_jpUCHU5HMW8QM3oECBsQAA..i&w=800&h=800&hcb=2&ved=2ahUKEwjfrYWQ6uKKAxW_jpUCHU5HMW8QM3oECBsQAA)
+# JavaScript (JS) Training ![Texto Alternativo](https://blogjavascript.com.br/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fblogjavascript%2F4502e0bb-14cb-4da9-845b-7083e48ccc00_1.jpg%3Fauto%3Dcompress%2Cformat&w=1920&q=75)
 ## Content:
 
 #### Hello World message
