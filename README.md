@@ -13,12 +13,16 @@ console.log("Hello World!");
 (topic) ⇒ **Knowledge of JavaScript Primitive Types:**
 - _Practicing the use of JavaScript primitive types such as:_
 
-* String
-* Number
-* Boolean
-* Null
-* Undefined
-* Symbol.
+Data Type | Expected Value
+--------- | ------
+String    | 'foo';
+String    | "foo";
+Number    | 100;
+Number    | 3.14;
+Boolean   | true;
+Boolean   | false;
+Null      | null;
+Symbol    | Symbol('releaseDate');
 
 ~~~javascript~~~
 
