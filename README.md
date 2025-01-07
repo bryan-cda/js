@@ -5,7 +5,7 @@
 (topic) ⇒ **Hello World:**
 -  _We don't want the developers' curse to fall upon us, so Hello World is a must._
 
-~~~javascript~~~
+~~~javascript
 function helloWorld() {
     console.log('Hello World!');
 }
