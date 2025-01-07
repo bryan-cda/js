@@ -6,9 +6,9 @@
 -  _We don't want the developers' curse to fall upon us, so Hello World is a must._
 
 ~~~javascript~~~
+function sayHello() => "Hello World!";
 
-console.log("Hello World!");
-
+sayHello();
 ~~~
 
 (topic) ⇒ **Knowledge of JavaScript Primitive Types:**
@@ -19,7 +19,7 @@ variable_name | assigment_value | dynamic_data_type
 firstName     | 'foo';          | String
 lastName      | "bar";          | String
 price         | 100;            | Number
-Pi            | 3.14;           | Number
+PI            | 3.14;           | Number
 isOpen        | true;           | Boolean
 isClosed      | false;          | Boolean
 Null          | null;           | Null
@@ -50,8 +50,12 @@ const drone = { brand, releaseDate };
 
 ~~~javascript
 
-let user = "foobar";
-console.log(`Welcome to GitHub, ${user}!`);
+function helloFromGit() {
+    let user = "foobar";
+    console.log(`Welcome to GitHub, ${user}!`);
+}
+
+helloFromGit();
 ~~~
 
 (topic) ⇒ **Different ways to assign or change the value of an object property:**
@@ -92,6 +96,8 @@ console.log(colors[0]);
 function displayMyAge(bornDate) {
     return new Date().getFullYear() - bornDate;
 }
+
+displayMyAge(1990);
 ~~~
 
 **Callback Function:**
@@ -99,12 +105,19 @@ function displayMyAge(bornDate) {
 ~~~javascript
 
 const displayMyAge = (bornDate) => new Date().getFullYear() - bornDate;
+
+displayMyAge(1990);
 ~~~
 
 (topic) ⇒ **Using a mathematical operations:**
 - _In the world of programming, mathematical operations are fundamental. In them we can add, decrease, divide, multiply, increase, decrement and perform other operations, as the example below shows:_
 
 ~~~javascript
+
+let number1 = 3;
+let number2 = 2;
+let number3 = 3;
+let number4 = 100;
 
 cconst evenOrOdd = (number1, number2) => (number1 % number2) > 0 ? "odd" : "even"; 
 console.log(`Dividing ${number1} by ${number2} has a reminder is:`,number1 % number2,`so the number is ${evenOrOdd(number1, number2)}.`);
