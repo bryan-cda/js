@@ -94,4 +94,20 @@ console.log(`Divding the number ${number4} by 4 we get the value: `, number4 /= 
 console.log(`Multiplying the number ${number4} by ${number3} we get the value: `, number4 *= number3);
 console.log(`Multiplying the number ${number4} by 4 we get the value: `, number4 *= number3);
 
+//Using comparator operator
+console.log(number1 > number2);
+console.log(number1 > number3);
+console.log(number1 > number4);
+console.log(number1 >= number3);
+
+//Using strict e lose equality test
+
+console.log(number1 == '3');
+console.log(number1 === '3');
+console.log(number1 === 3);
+
+const displayMyAge = (bornDate) => new Date().getFullYear() - bornDate;
+    
+
+console.log(displayMyAge(1990));
 
