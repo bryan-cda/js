@@ -117,6 +117,7 @@ const canditate1 = { firstName: 'John', candidateAge: 17 };
 
 const canditate2 = { firstName: 'James', candidateAge: 18 };
 
+//Ising logical operators
 function checkArmyCandidateAge(candidate){
     let minimalAge = 18;
     return candidate.candidateAge >= minimalAge ? `welcome to army, ${candidate.firstName}!` : `Dear ${candidate.firstName} wait to complete minimal age.`
@@ -124,4 +125,51 @@ function checkArmyCandidateAge(candidate){
 
 console.log(checkArmyCandidateAge(canditate1));
 console.log(checkArmyCandidateAge(canditate2));
+
+let sdu = 'SDU';
+let gig = 'GIG';
+let gru = 'GRU';
+let unknow = 'UNK';
+
+//Using switch to choice the option of airport by your sigil
+function choiceAirport(sigil){
+    switch(sigil){
+        case 'SDU':
+            console.log('Santos Dumont - Airport');
+            break;
+        case 'GIG':
+            console.log('Galeão - Airport')
+            break;
+        case 'GRU':
+            console.log('Guarulhos - Airport');
+            break;
+        default:
+            console.log('Airport not found.');
+            break;
+    }
+}
+
+choiceAirport(sdu);
+choiceAirport(gig);
+choiceAirport(gru);
+choiceAirport(unknow);
+
+//Using a loop for, while and do while
+for(let i = 0; i <= 10; i++){
+    console.log(`[for] Number:`, i);
+}
+
+let i = 0;
+while(i < 10){
+    console.log(`[while] number:`,i,`minor than 10.`);
+    i++;
+}
+
+let y = 1;
+
+do {
+console.log(`[do-while] number:`,y,`minor than 10.`);
+y++;
+
+} while(y < 10);
 

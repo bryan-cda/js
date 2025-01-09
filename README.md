@@ -127,6 +127,19 @@ console.log(`Dividing ${number1} by ${number2} has a reminder is:`,number1 % num
 console.log(`Dividing ${number1} by ${number3} has a reminder is:`, number1 % number3,`so the number is ${evenOrOdd(number1, number3)}.`);
 ~~~
 
+(topic) ⇒ **Using a logical operations:**
+_Using logical operators for decision making:_
+
+~~~javascript
+
+const candidateAge = 18;
+
+function checkCandidateAgeToArmy(candidateAge){
+    let mininalAge = 18;
+    candidateAge >= 18 ? "Welcome, soldier!" : "Dear candidate wait to complete the mininal age!";
+}
+~~~
+
 ## Project Status:
 - _Work In Progress..._
 
