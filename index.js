@@ -106,8 +106,22 @@ console.log(number1 == '3');
 console.log(number1 === '3');
 console.log(number1 === 3);
 
+//Build a function that returns your age
 const displayMyAge = (bornDate) => new Date().getFullYear() - bornDate;
-    
-
 console.log(displayMyAge(1990));
+
+//Using ternary if
+console.log(number1 > number2 ? 'below' : 'above');  
+
+const canditate1 = { firstName: 'John', candidateAge: 17 };
+
+const canditate2 = { firstName: 'James', candidateAge: 18 };
+
+function checkArmyCandidateAge(candidate){
+    let minimalAge = 18;
+    return candidate.candidateAge >= minimalAge ? `welcome to army, ${candidate.firstName}!` : `Dear ${candidate.firstName} wait to complete minimal age.`
+}
+
+console.log(checkArmyCandidateAge(canditate1));
+console.log(checkArmyCandidateAge(canditate2));
 
