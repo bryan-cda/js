@@ -32,6 +32,7 @@ const freudDreams = createBookFactory('Dreams', 'Freud', '1983');
 //Add new attributes dynamically
 freudUnconscious.totalPages = 484;
 
+//Create a new book with constructor 
 function createBookConstructor(title, author, releaseYear){
     this.title = title;
     this.author = author;
@@ -39,3 +40,10 @@ function createBookConstructor(title, author, releaseYear){
 }
 
 const cleanCoder = new createBookConstructor('The Clean Coder', 'Robert C. Martin', 2010);
+
+
+//Test some objects and methods built-in JavaScript
+console.log(Math.max(4000,30000,12000));
+console.log(Math.min(4000,30000,12000));
+console.log(Math.round(5.6));
+console.log(Math.round(5.3));
