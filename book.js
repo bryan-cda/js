@@ -26,4 +26,8 @@ function createBook(title, author, releaseYear){
     return book;    
 }
 
-const freud = createBook('Unconscious', 'Freud', '1982');
+const freudUnconscious = createBook('Unconscious', 'Freud', '1982');
+const freudDreams = createBook('Dreams', 'Freud', '1983');
+
+//Add new attributes dynamically
+freudUnconscious.totalPages = 484;
