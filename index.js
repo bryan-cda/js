@@ -180,7 +180,15 @@ const myCar = {
     color: 'Gray'
 }
 
+//Using for-in to show properties and values of variables inside an object
 for (let i in myCar){
     console.log(`variable: `, i);
     console.log(`variable and value: `,i, myCar[i]);
+}
+
+//Using for-of to show values inside an array
+let games = ['Valorant', 'League of Legends', 'Goat Simulator'];
+
+for(let i of games){
+    console.log(i);
 }
