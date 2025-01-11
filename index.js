@@ -173,3 +173,14 @@ y++;
 
 } while(y < 10);
 
+
+const myCar = {
+    brand: 'BMW',
+    releaseYear: 2025,
+    color: 'Gray'
+}
+
+for (let i in myCar){
+    console.log(`variable: `, i);
+    console.log(`variable and value: `,i, myCar[i]);
+}
