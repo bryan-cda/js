@@ -192,3 +192,6 @@ let games = ['Valorant', 'League of Legends', 'Goat Simulator'];
 for(let i of games){
     console.log(i);
 }
+
+
+document.getElementById('location').innerHTML = 'Vitória - ES';
