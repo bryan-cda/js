@@ -47,3 +47,6 @@ console.log(Math.max(4000,30000,12000));
 console.log(Math.min(4000,30000,12000));
 console.log(Math.round(5.6));
 console.log(Math.round(5.3));
+
+let password = prompt("Enter with the access code:");
+console.log(password);
